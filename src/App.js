@@ -1,12 +1,9 @@
 import './styles/App.css';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import LanguageIcon from '@mui/icons-material/Language';
-import IconButton from '@mui/material/IconButton';
 import { Button, Typography } from '@mui/material';
-import Fade from '@mui/material/Fade';
 
 
 import MainPageEN from './pages/English/mainPageEN';
@@ -21,7 +18,7 @@ export default function App() {
 
   return (
     <Router>
-      <AppBar position="static" sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'row'}}>
+      <AppBar position="static" sx={{display: 'flex', justifyContent: 'end', alignItems: 'end', flexDirection: 'row'}}>
         <Button
           onClick={handleClick}
           fontsize="large"
