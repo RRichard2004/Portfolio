@@ -1,6 +1,6 @@
 import './styles/App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import React, { useState } from 'react';
+import {BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 import AppBar from '@mui/material/AppBar';
 import LanguageIcon from '@mui/icons-material/Language';
 import { Button, Typography } from '@mui/material';
@@ -28,7 +28,7 @@ function AnimatedRoutes({ english }) {
   
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={english ? 'en' : 'hu'}> {/* Key based on language */}
+      <Routes> {/* Key based on language */}
         <Route path="/eng" element={
             <motion.div
               initial="initial"
@@ -50,7 +50,9 @@ function AnimatedRoutes({ english }) {
             >
               <MainPageHU />
             </motion.div>
+            
           } />
+          <Route path="*" element={<Navigate to="/eng" replace />} />
       </Routes>
     </AnimatePresence>
   );
@@ -58,16 +60,35 @@ function AnimatedRoutes({ english }) {
 
 function AppContent() {
   const location = useLocation();
-  const [english, setEnglish] = useState(location.pathname.startsWith('/eng'));
   const navigate = useNavigate();
 
+  // Start with no decision
+  const [english, setEnglish] = useState(null);
+
+  // Decide language after the page has loaded
+  useEffect(() => {
+    const path = window.location.pathname;
+
+    if (path.startsWith("/hu")) {
+      setEnglish(false);
+    } else {
+      setEnglish(true);
+      if (!path.startsWith("/eng")) {
+        // Redirect unknown or root paths to /eng
+        navigate("/eng", { replace: true });
+      }
+    }
+  }, [navigate]);
+
   const handleClick = () => {
+    if (english === null) return; // avoid clicking before loaded
     const newLanguage = !english;
     setEnglish(newLanguage);
-    
-    // Navigate to the appropriate route
-    navigate(newLanguage ? '/eng' : '/hu');
+    navigate(newLanguage ? "/eng" : "/hu");
   };
+
+  // While language is not decided, you can render nothing or a loader
+  if (english === null) return null;
 
   return (
     <>

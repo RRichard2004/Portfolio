@@ -13,6 +13,7 @@ export default function MainPage() {
             display: 'flex', 
             flexWrap: 'wrap', 
             flexDirection: 'collumn', 
+            justifyContent: 'center',
             alignItems: 'center' }}>
             <Box sx={{ 
                 width: '100%', 
@@ -21,9 +22,10 @@ export default function MainPage() {
                 flexDirection: 'row', 
                 alignItems: 'center', 
                 justifyContent: 'space-around', 
+                marginX: 10,
                 p: 2, 
                 gap: 2,
-                "@media (max-width:650px)": {
+                "@media (max-width:800px)": {
                     flexDirection: "column",
                 },
             }}>
@@ -155,10 +157,21 @@ export default function MainPage() {
                     </Typography>
                 </Box>
             </Box> 
-            <Box sx={{ width: '100%', my:2, mx:10, display: 'flex', flexDirection: 'column', gap: 2, fontSize: 20, textAlign: 'justify'}}>
+            <Box sx={{ 
+                width: '80%', 
+                maxWidth: 1000, 
+                my:2, 
+                mx:10, 
+                display: 'flex', 
+                alignItems: 'center',
+                flexDirection: 'column', 
+                gap: 2, 
+                fontSize: 20, 
+                textAlign: 'justify',
+                }}>
                 <span>
                     <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Introduction:</span> I am an IT professional with a strong foundation in both <strong>system support and software development</strong>. 
-                    I spent four years gaining experience as a general IT System Support Technician <strong>(3142/9 FEOR)</strong>, earning my certification and learning the ins and outs of everyday IT operations. 
+                    I spent four years gaining experience as a general <strong>IT System Support Technician (3142/9 FEOR)</strong>, earning my certification and learning the ins and outs of everyday IT operations. 
                     Following that, I completed a one-year course in <strong>Software Development and Testing (506131203)</strong>. My last 2 years here the last two years were highly practical and gave me hands-on experience in developing real-world applications.
                 </span>
 
