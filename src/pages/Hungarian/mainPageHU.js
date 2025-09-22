@@ -1,5 +1,10 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
+import { FaLinkedin } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+
 
 export default function MainPage() {
     return (
@@ -10,14 +15,18 @@ export default function MainPage() {
             flexDirection: 'collumn', 
             alignItems: 'center' }}>
             <Box sx={{ 
-                    width: '100%', 
-                    display: 'flex', 
-                    flexWrap: 'wrap', 
-                    flexDirection: 'row', 
-                    alignItems: 'center', 
-                    justifyContent: 'space-around', 
-                    p: 2, 
-                    gap: 2 }}>
+                width: '100%', 
+                display: 'flex', 
+                flexWrap: 'nowrap', 
+                flexDirection: 'row', 
+                alignItems: 'center', 
+                justifyContent: 'space-around', 
+                p: 2, 
+                gap: 2,
+                "@media (max-width:650px)": {
+                    flexDirection: "column",
+                },
+            }}>
                 <Box
                     sx={{
                         aspectRatio: '1',
@@ -25,28 +34,149 @@ export default function MainPage() {
                         maxWidth: 200,
                         minHeight: 100,
                         maxHeight: 200,
-                        borderRadius: '8px',
-                        marginInline:2,
+                        borderRadius: '50% 25px 50% 25px',
+                        marginInline: 2,
+                        padding: 1,
                         overflow: 'hidden',
-                        boxShadow: 8,
+                        boxShadow: 10,
+                        border: "2px black solid",
+                        flexShrink: 0  // Prevent image from shrinking
                     }}
-                    >
+                >
                     <img
-                        src="stock_pfp.png"
+                        src="profileP.jpg"
                         alt="Example"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        style={{ 
+                            width: '100%', 
+                            height: '100%',
+                            borderRadius: '50%',
+                        }}
                     />
                 </Box>
-                <Typography flex={1} mx={3} minWidth={200} variant="span" fontSize={30}>Ez az oldal rólam szól és hogy milyen király vagyok</Typography>
+                <Box
+                    sx={{ 
+                        display: 'flex', 
+                        flexDirection: 'column', 
+                        alignItems: 'flex-start',
+                        margin: 0, 
+                        padding: 2,
+                        flex: 1,  // Take remaining space
+                        minWidth: 0  // Allow shrinking below content size
+                    }}
+                >
+                    <Typography 
+                        mx={1} 
+                        variant="body1" 
+                        fontSize={35} 
+                        sx={{ 
+                            textAlign: 'flex-end', 
+                            wordWrap: 'break-word',
+                            fontWeight: 'bold',
+                            letterSpacing: 1,
+                        }}
+                    >
+                        Ruszó Richárd
+                    </Typography>
+                    <Typography 
+                        mx={3} 
+                        variant="body5" 
+                        fontSize={25} 
+                        sx={{ 
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: 1,
+                        }}
+                    >
+                        <a 
+                            href="tel:+36303137120" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{ textDecoration: "none", color: "inherit", display: "inline-flex", alignItems: "center", gap: "8px" }}
+                            >
+                            <FaPhoneAlt /> +36 30 313 7120
+                        </a>
+                    </Typography>
+                    <Typography 
+                        mx={3}  
+                        variant="body5" 
+                        fontSize={25} 
+                        sx={{ 
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: 1,
+                        }}
+                    >
+                        <a 
+                            href="mailto:ricsiruszo90@gmail.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{ textDecoration: "none", color: "inherit", display: "inline-flex", alignItems: "center", gap: "8px" }}
+                            >
+                            <IoIosMail /> ricsiruszo90@gmail.com
+                        </a>
+                    </Typography>
+                    <Typography 
+                        mx={3} 
+                        variant="body5" 
+                        fontSize={25} 
+                        sx={{ 
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: 1,
+                        }}
+                    >
+                        <a 
+                            href="https://github.com/RRichard2004" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{ textDecoration: "none", color: "inherit", display: "inline-flex", alignItems: "center", gap: "8px" }}
+                            >
+                            <FaGithub /> RRichard2004
+                        </a>
+                    </Typography>
+                    <Typography 
+                        mx={3} 
+                        variant="body5" 
+                        fontSize={25} 
+                        sx={{ 
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: 1,
+                        }}
+                    >
+                        <a 
+                            href="https://www.linkedin.com/in/richard-ruszo-27b3ab311" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{ textDecoration: "none", color: "inherit", display: "inline-flex", alignItems: "center", gap: "8px" }}
+                            >
+                            <FaLinkedin />richard-ruszo
+                        </a>
+                    </Typography>
+                </Box>
+            </Box> 
+            <Box sx={{ width: '100%', my:2, mx:10, display: 'flex', flexDirection: 'column', gap: 2, fontSize: 20, textAlign: 'justify'}}>
+                <span>
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Introduction:</span> I am an IT professional with a strong foundation in both <strong>system support and software development</strong>. 
+                    I spent four years gaining experience as a general IT System Support Technician <strong>(3142/9 FEOR)</strong>, earning my certification and learning the ins and outs of everyday IT operations. 
+                    Following that, I completed a one-year course in <strong>Software Development and Testing (506131203)</strong>. My last 2 years here the last two years were highly practical and gave me hands-on experience in developing real-world applications.
+                </span>
 
-            </Box>  
-            <Box sx={{ width: '100%', my:2, mx:10, display: 'flex', flexDirection: 'column', gap: 2}}>
-            
-            <span style={{ fontSize: 15 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in enim tempor, vehicula quam a, vestibulum nisl. Etiam id enim orci. Donec lectus ex, elementum id hendrerit id, accumsan molestie lectus. Quisque luctus mollis consequat. Vestibulum ligula risus, sodales sed fermentum iaculis, dapibus eget arcu. Ut eros ipsum, accumsan gravida ultricies eget, tristique vitae arcu. Nulla fringilla felis non lectus imperdiet, sit amet lacinia lacus ullamcorper. Phasellus ullamcorper justo nec ligula faucibus tincidunt. Phasellus mattis lectus id ipsum mollis consequat. Nullam aliquam mattis sagittis.</span> 
-            <span style={{ fontSize: 15 }}>Aliquam interdum ipsum a leo tincidunt, vitae maximus lectus ornare. Cras id porta leo. Nulla feugiat erat pharetra feugiat rhoncus. Integer at leo a nisl ultrices tincidunt. Aliquam erat volutpat. Praesent facilisis gravida pellentesque. Aliquam maximus vel metus vel mollis. Sed malesuada velit diam, sit amet suscipit tellus malesuada non. Pellentesque risus ex, lobortis vitae aliquam eget, ultrices id nibh.</span>
-            <span style={{ fontSize: 15 }}>Vivamus tempus a orci nec aliquam. Praesent ultricies, urna ut posuere egestas, diam enim aliquam nisi, in sodales ipsum lacus nec lacus. Mauris justo dolor, pulvinar id maximus vel, porta tempus urna. Nam cursus nisi id rutrum mattis. Donec rhoncus neque quis tristique auctor. Sed rutrum vestibulum vulputate. Nulla congue ex id finibus tincidunt. Ut ultricies lacus sed eleifend aliquet. Pellentesque rhoncus molestie risus ut pharetra. Vestibulum lectus felis, molestie sed nisi eget, sodales congue nisi.</span>
-            <span style={{ fontSize: 15 }}>Suspendisse vehicula velit nibh, sit amet auctor tellus porttitor ut. Sed ultricies tellus diam, vel finibus sapien dictum eu. Phasellus sagittis enim quis enim efficitur pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed purus nisl, volutpat a sem sed, ornare laoreet dui. Ut scelerisque sapien sit amet erat cursus maximus. Sed turpis justo, volutpat et posuere at, finibus sed augue. Donec magna nisl, vestibulum a tincidunt ut, mattis ac ipsum. Phasellus urna mauris, placerat eget viverra vitae, volutpat nec nulla. Ut hendrerit neque eget ex lacinia vehicula at vitae tellus. Phasellus vitae lobortis tellus, vitae vestibulum libero. Aenean erat lacus, dignissim et aliquam id, rhoncus sed felis. Suspendisse potenti. Donec congue elementum ultricies. Fusce sollicitudin, est in molestie mattis, libero velit suscipit urna, ut facilisis nibh neque non lacus.</span>
-            <span style={{ fontSize: 15 }}>Cras pulvinar mi nec nunc convallis, at vestibulum nibh hendrerit. Vestibulum in dui eget ante dapibus pulvinar. Morbi eget nisl quis velit aliquam iaculis eu ac sapien. Suspendisse convallis massa id elementum gravida. Nulla gravida pretium felis aliquam luctus. Fusce a nisi id tortor gravida volutpat. Nunc erat justo, placerat vel sollicitudin vitae, luctus in neque. Morbi rutrum euismod vulputate. Donec quis convallis arcu. Etiam rhoncus in tellus ac faucibus. Nullam quis magna arcu. Maecenas vulputate malesuada lorem, vitae lobortis ipsum pellentesque sed. Donec lobortis convallis commodo</span>
+                <span>
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Technical Skills:</span> I have developed strong skills in <strong>C#, HTML, JavaScript, TypeScript, and MySQL</strong>, and I am experienced with <strong>React.js, .NET Framework, Docker, and Azure</strong>. 
+                    I have built multiple small scripts to automate everyday tasks—ranging from installing/uninstalling applications on new systems to converting various data files into Excel-ready formats—which improved efficiency in IT workflows.
+                </span>
+
+                <span>
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projects & Internship:</span> During my studies, I developed a fully functional <strong>horse betting simulation game</strong> and multiple small websites for technical interview rounds. 
+                    I also completed a <strong>one-month internship in Spain</strong>, where I created a <strong>hybrid website/mobile application using the Ionic framework</strong>, gaining international exposure and experience working in a collaborative, agile environment.
+                </span>
+
+                <span>
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Current Work & Soft Skills:</span> Currently, I work at <strong>NSZFH as an IT technician</strong>, where I manage user onboarding and day-to-day IT operations. 
+                    My work has honed my ability to <strong>solve problems under pressure, endure repetitive tasks, and collaborate effectively in a team environment</strong>.  
+                    I enjoy combining my <strong>practical IT experience</strong> with <strong>hands-on software development</strong>, continuously seeking opportunities to create tools and applications that have a real impact.
+                </span>
             </Box>
         </Box> 
     );
