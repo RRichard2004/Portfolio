@@ -170,25 +170,25 @@ export default function MainPage() {
                 textAlign: 'justify',
                 }}>
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Introduction:</span> I am an IT professional with a strong foundation in both <strong>system support and software development</strong>. 
-                    I spent four years gaining experience as a general <strong>IT System Support Technician (3142/9 FEOR)</strong>, earning my certification and learning the ins and outs of everyday IT operations. 
-                    Following that, I completed a one-year course in <strong>Software Development and Testing (506131203)</strong>. My last 2 years here the last two years were highly practical and gave me hands-on experience in developing real-world applications.
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Bemutatkozás:</span> IT szakember vagyok, erős alapokkal mind a <strong>rendszertámogatás, mind a szoftverfejlesztés</strong> területén. 
+                    Négy évet töltöttem el általános <strong>IT rendszertámogató technikus (3142/9 FEOR)</strong> pozícióban, tapasztalatot szerezve, megszerezve a szükséges képesítést és elsajátítva a mindennapi IT működés részleteit. 
+                    Ezt követően elvégeztem egy egyéves <strong>Szoftverfejlesztés és Tesztelés (506131203)</strong> tanfolyamot. Az utóbbi 2 évem rendkívül gyakorlatorientált volt, és gyakorlati tapasztalatot nyújtott valós alkalmazások fejlesztésében.
                 </span>
 
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Technical Skills:</span> I have developed strong skills in <strong>C#, HTML, JavaScript, TypeScript, and MySQL</strong>, and I am experienced with <strong>React.js, .NET Framework, Docker, and Azure</strong>. 
-                    I have built multiple small scripts to automate everyday tasks—ranging from installing/uninstalling applications on new systems to converting various data files into Excel-ready formats—which improved efficiency in IT workflows.
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Technikai készségek:</span> Erős készségeket fejlesztettem ki a <strong>C#, HTML, JavaScript, TypeScript és MySQL</strong> technológiákban, valamint tapasztalatot szereztem <strong>React.js, .NET Framework, Docker és Azure</strong> környezetekben. 
+                    Több kisebb szkriptet készítettem a mindennapi feladatok automatizálására – az új rendszereken történő alkalmazások telepítésétől/eltávolításától kezdve a különböző adatfájlok Excel-kompatibilis formátumba való konvertálásáig –, amelyek javították az IT munkafolyamatok hatékonyságát.
                 </span>
 
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projects & Internship:</span> During my studies, I developed a fully functional <strong>horse betting simulation game</strong> and multiple small websites for technical interview rounds. 
-                    I also completed a <strong>one-month internship in Spain</strong>, where I created a <strong>hybrid website/mobile application using the Ionic framework</strong>, gaining international exposure and experience working in a collaborative, agile environment.
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projektek és szakmai gyakorlat:</span> Tanulmányaim során fejlesztettem egy teljesen működőképes <strong>lóverseny fogadási szimulációs játékot</strong> és több kisebb weboldalt technikai interjúkörökre. 
+                    Elvégeztem egy <strong>egy hónapos spanyolországi szakmai gyakorlatot</strong> is, ahol <strong>hibrid weboldal/mobil alkalmazást készítettem az Ionic keretrendszer használatával</strong>, nemzetközi tapasztalatot szerezve és megtanulva együttműködni kollaboratív, agilis környezetben.
                 </span>
 
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Current Work & Soft Skills:</span> Currently, I work at <strong>NSZFH as an IT technician</strong>, where I manage user onboarding and day-to-day IT operations. 
-                    My work has honed my ability to <strong>solve problems under pressure, endure repetitive tasks, and collaborate effectively in a team environment</strong>.  
-                    I enjoy combining my <strong>practical IT experience</strong> with <strong>hands-on software development</strong>, continuously seeking opportunities to create tools and applications that have a real impact.
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Jelenlegi munka és soft skillek:</span> Jelenleg az <strong>NSZFH-nál dolgozom IT technikusként</strong>, ahol a felhasználók bevezetését és a napi IT műveleteket kezelem. 
+                    A munkám fejlesztette azon képességemet, hogy <strong>nyomás alatt oldjam meg a problémákat, elviseljem az ismétlődő feladatokat, és hatékonyan működjek együtt csapatkörnyezetben</strong>.  
+                    Élvezem, hogy összekapcsolhatom <strong>gyakorlati IT tapasztalatomat</strong> a <strong>kézzelfogható szoftverfejlesztéssel</strong>, folyamatosan keresve azokat a lehetőségeket, amelyekben valódi hatású eszközöket és alkalmazásokat hozhatok létre.
                 </span>
             </Box>
         </Box> 
