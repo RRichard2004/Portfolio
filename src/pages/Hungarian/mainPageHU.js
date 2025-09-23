@@ -170,25 +170,25 @@ export default function MainPage() {
                 textAlign: 'justify',
                 }}>
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Bemutatkozás:</span> IT szakember vagyok, erős alapokkal mind a <strong>rendszertámogatás, mind a szoftverfejlesztés</strong> területén. 
-                    Négy évet töltöttem el általános <strong>IT rendszertámogató technikus (3142/9 FEOR)</strong> pozícióban, tapasztalatot szerezve, megszerezve a szükséges képesítést és elsajátítva a mindennapi IT működés részleteit. 
-                    Ezt követően elvégeztem egy egyéves <strong>Szoftverfejlesztés és Tesztelés (506131203)</strong> tanfolyamot. Az utóbbi 2 évem rendkívül gyakorlatorientált volt, és gyakorlati tapasztalatot nyújtott valós alkalmazások fejlesztésében.
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Bemutatkozás:</span> IT szakember vagyok, erős alapokkal mind a <strong>rendszertámogatás</strong>, mind a <strong>szoftverfejlesztés</strong> területén. 
+                    Négy évet töltöttem el általános <strong>IT rendszertámogató technikus (3142/9 FEOR)</strong> pozícióban, tapasztalatot szerezve, megszerezve a szükséges képesítést és elsajátítva a mindennapi IT működtetés részleteit. 
+                    Ezt követően elvégeztem egy egyéves <strong>Szoftverfejlesztés és Tesztelés (506131203)</strong> tanfolyamot. Az utolsó 2 évem itt rendkívül gyakorlatorientált volt, így remek gyakorlati tapasztalatot nyújtott valós alkalmazások fejlesztésében.
                 </span>
-
+ 
                 <span>
                     <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Technikai készségek:</span> Erős készségeket fejlesztettem ki a <strong>C#, HTML, JavaScript, TypeScript és MySQL</strong> technológiákban, valamint tapasztalatot szereztem <strong>React.js, .NET Framework, Docker és Azure</strong> környezetekben. 
-                    Több kisebb szkriptet készítettem a mindennapi feladatok automatizálására – az új rendszereken történő alkalmazások telepítésétől/eltávolításától kezdve a különböző adatfájlok Excel-kompatibilis formátumba való konvertálásáig –, amelyek javították az IT munkafolyamatok hatékonyságát.
+                    Több különböző szkriptet készítettem a mindennapi feladatok automatizálására <strong>PowerShell</strong>, <strong>C#</strong> és <strong>Python</strong> nyelveken, például az új rendszereken történő alkalmazások telepítésétől/eltávolításától kezdve a különböző adatfájlok Excel-kompatibilis formátumba való konvertálásáig, amelyek javították az IT munkafolyamataim hatékonyságát.
                 </span>
 
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projektek és szakmai gyakorlat:</span> Tanulmányaim során fejlesztettem egy teljesen működőképes <strong>lóverseny fogadási szimulációs játékot</strong> és több kisebb weboldalt technikai interjúkörökre. 
-                    Elvégeztem egy <strong>egy hónapos spanyolországi szakmai gyakorlatot</strong> is, ahol <strong>hibrid weboldal/mobil alkalmazást készítettem az Ionic keretrendszer használatával</strong>, nemzetközi tapasztalatot szerezve és megtanulva együttműködni kollaboratív, agilis környezetben.
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projektek és szakmai gyakorlat:</span> Tanulmányaim során fejlesztettem egy teljesen működőképes <strong>lóverseny fogadási szimulációs weboldalt</strong> és több kisebb weboldalt technikai interjúkörökre. 
+                    Elvégeztem egy <strong>egy hónapos spanyolországi szakmai gyakorlatot</strong> is, ahol hibrid weboldal/mobil alkalmazást készítettem az <strong>Ionic</strong> keretrendszer használatával, nemzetközi tapasztalatot szerezve és megtanulva együttműködni kollaboratív, agilis környezetben.
                 </span>
 
                 <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Jelenlegi munka és soft skillek:</span> Jelenleg az <strong>NSZFH-nál dolgozom IT technikusként</strong>, ahol a felhasználók bevezetését és a napi IT műveleteket kezelem. 
+                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Jelenlegi munkahelyem és soft skillek:</span> Jelenleg az <strong>NSZFH-nál dolgozom IT technikusként</strong>, ahol a felhasználók bevezetését és a mindennapi IT műveleteket végzem. 
                     A munkám fejlesztette azon képességemet, hogy <strong>nyomás alatt oldjam meg a problémákat, elviseljem az ismétlődő feladatokat, és hatékonyan működjek együtt csapatkörnyezetben</strong>.  
-                    Élvezem, hogy összekapcsolhatom <strong>gyakorlati IT tapasztalatomat</strong> a <strong>kézzelfogható szoftverfejlesztéssel</strong>, folyamatosan keresve azokat a lehetőségeket, amelyekben valódi hatású eszközöket és alkalmazásokat hozhatok létre.
+                    Szeretem ötvözni a <strong>gyakorlati IT tapasztalatomat</strong> a <strong>szoftverfejlesztéssel</strong>, és folyamatosan olyan lehetőségeket keresek, ahol valódi hatással bíró eszközöket és alkalmazásokat fejleszthetek.
                 </span>
             </Box>
         </Box> 
