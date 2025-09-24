@@ -11,6 +11,7 @@ export default function MainPage() {
         <Box sx={{ 
             width: '100%', 
             display: 'flex', 
+            height: '100%',
             flexWrap: 'wrap', 
             flexDirection: 'collumn', 
             justifyContent: 'center',
@@ -169,27 +170,33 @@ export default function MainPage() {
                 fontSize: 20, 
                 textAlign: 'justify',
                 }}>
-                <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Introduction:</span> I am an IT professional with a strong foundation in both <strong>system support and software development</strong>. 
-                    I spent four years gaining experience as a general <strong>IT System Support Technician (3142/9 FEOR)</strong>, earning my certification and learning the ins and outs of everyday IT operations. 
-                    Following that, I completed a one-year course in <strong>Software Development and Testing (506131203)</strong>. My last 2 years here the last two years were highly practical and gave me hands-on experience in developing real-world applications.
+                <span> 
+                    I'm a <strong>Software Developer</strong> who works with <strong>C#, JavaScript/TypeScript, React.js, .NET, and Azure</strong>. I got my start with a <strong>four-year IT System Support certificate</strong> in school, followed by a <strong>focused year learning Software Development and Testing</strong>. </span><span> Right now, I'm working in <strong>IT Helpdesk support</strong>, which has been incredibly valuable. I get to see firsthand how people actually use software and where they run into problems. This really shapes how I build things—I focus on making applications that are not just powerful, but also <strong>intuitive and easy to support</strong>. </span><span> I've worked on a variety of projects, from <strong>desktop apps to full-stack web solutions</strong>, and even built a <strong>mobile app with Ionic during an internship in Spain</strong>. I'm now ready to move into a full-time <strong>software development role</strong>, where I can use my unique blend of technical skill and user-focused thinking. 
                 </span>
+            </Box>
+            <Box sx={{ 
+                width: '80%', 
+                maxWidth: 1500, 
+                my:2, 
+                mx:10, 
+                display: 'flex', 
+                alignItems: 'center',
+                flexDirection: 'column', 
+                gap: 2, 
+                }}>
+                    <div style={{ 
+                        display: 'flex', 
+                        gap: '16px',  
+                        flexWrap: 'wrap', 
+                        flexDirection: 'row',
+                        justifyContent: 'space-around',
+                    }}>
+                        <a href="https://bored-bets.vercel.app" target="_blank" rel="noopener noreferrer" className='portfolioCard boredbets'><a>boredBets</a><span>A fully automated horse betting simulation website</span></a>
+                        <a href="https://pfc-frontend-pearl.vercel.app" target="_blank" rel="noopener noreferrer" className='portfolioCard PfC'><a>PfC Login</a><span>Simple Sign in/out website with persistent login</span></a>
+                        <a href="https://github.com/bag0ly/cruix" target="_blank" rel="noopener noreferrer" className='portfolioCard cruix'><a>Cruix</a><span>Client project about catholic monuments - stopped development</span></a>
+                        <a href="https://github.com/RRichard2004/Intern_EduApp" target="_blank" rel="noopener noreferrer" className='portfolioCard eduapp'><a>Education App</a><span>Multiplatform Ionic application used to navigate through multiple sources</span></a>
 
-                <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Technical Skills:</span> I have developed strong skills in <strong>C#, HTML, JavaScript, TypeScript, and MySQL</strong>, and I am experienced with <strong>React.js, .NET Framework, Docker, and Azure</strong>. 
-                    I have built multiple small scripts to automate everyday tasks—ranging from installing/uninstalling applications on new systems to converting various data files into Excel-ready formats—which improved efficiency in IT workflows.
-                </span>
-
-                <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projects & Internship:</span> During my studies, I developed a fully functional <strong>horse betting simulation game</strong> and multiple small websites for technical interview rounds. 
-                    I also completed a <strong>one-month internship in Spain</strong>, where I created a <strong>hybrid website/mobile application using the Ionic framework</strong>, gaining international exposure and experience working in a collaborative, agile environment.
-                </span>
-
-                <span>
-                    <span style={{ fontWeight: 'bold', fontSize: '120%'}}>Current Work & Soft Skills:</span> Currently, I work at <strong>NSZFH as an IT technician</strong>, where I manage user onboarding and day-to-day IT operations. 
-                    My work has honed my ability to <strong>solve problems under pressure, endure repetitive tasks, and collaborate effectively in a team environment</strong>.  
-                    I enjoy combining my <strong>practical IT experience</strong> with <strong>hands-on software development</strong>, continuously seeking opportunities to create tools and applications that have a real impact.
-                </span>
+                    </div>
             </Box>
         </Box> 
     );

@@ -4,3 +4,67 @@
     box-shadow: none;
     color: white;
 }
+
+
+.portfolioCard {
+    all: unset;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    width: 300px;
+    max-width: 85%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: none;
+    color: white;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor:pointer;
+}
+.portfolioCard a {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-block: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.portfolioCard span {
+    font-size: 16px;
+    padding-block: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.portfolioCard.boredbets{
+    background: url('../../public/boredbets.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.portfolioCard.PfC{
+    background: url('../../public/padlock.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.portfolioCard.cruix{
+    background: url('../../public/budded.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.portfolioCard.eduapp{
+    background: url('../../public/books.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}

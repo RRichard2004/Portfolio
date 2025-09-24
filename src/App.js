@@ -123,7 +123,7 @@ function AppContent() {
         </Button>   {/*  language toggle Button  */}
       </AppBar>
 
-      <AnimatedRoutes english={english} />
+      <AnimatedRoutes sx={{ height: '100%' }} english={english} />
     </>
   );
 }

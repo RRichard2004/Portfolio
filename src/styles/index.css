@@ -5,9 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #b944fc;
-background: linear-gradient(116deg, rgba(185, 68, 252, 1) 0%, rgba(110, 243, 255, 1) 100%);
-
+  background: #3F5573;
+  background: linear-gradient(130deg,rgba(63, 85, 115, 1) 0%, rgba(5, 195, 247, 1) 100%);
+  color: rgba(220, 238, 255, 0.9);
+}
+::selection {
+  background: #0f5496d3; /* background color when selected */
+  color: rgba(220, 238, 255, 0.8);
 }
 
 code {
