@@ -158,6 +158,18 @@ export default function MainPage() {
                     </Typography>
                 </Box>
             </Box> 
+            {/*<Box sx={{ 
+                width: '100%', 
+                display: 'flex', 
+                justifyContent: 'center', 
+                alignItems: 'center', 
+                my: 2, 
+                height: '30px' }}>
+                    <button>About Me</button>
+                    <button>Technical Skills</button>
+                    <button>Projects And Experience</button>
+                    <button>Current Position</button>
+            </Box>*/}
             <Box sx={{ 
                 width: '80%', 
                 maxWidth: 1000, 
@@ -170,9 +182,13 @@ export default function MainPage() {
                 fontSize: 20, 
                 textAlign: 'justify',
                 }}>
-                <span> 
-                    I'm a <strong>Software Developer</strong> who works with <strong>C#, JavaScript/TypeScript, React.js, .NET, and Azure</strong>. I got my start with a <strong>four-year IT System Support certificate</strong> in school, followed by a <strong>focused year learning Software Development and Testing</strong>. </span><span> Right now, I'm working in <strong>IT Helpdesk support</strong>, which has been incredibly valuable. I get to see firsthand how people actually use software and where they run into problems. This really shapes how I build things—I focus on making applications that are not just powerful, but also <strong>intuitive and easy to support</strong>. </span><span> I've worked on a variety of projects, from <strong>desktop apps to full-stack web solutions</strong>, and even built a <strong>mobile app with Ionic during an internship in Spain</strong>. I'm now ready to move into a full-time <strong>software development role</strong>, where I can use my unique blend of technical skill and user-focused thinking. 
-                </span>
+                <span><span style={{ fontWeight: 'bold', fontSize: '120%'}}>About Me:</span> I am an IT professional with strong foundations in both <strong>system support</strong> and <strong>software development</strong>. I spent four years in a general <strong>IT System Support Technician (3142/9 FEOR)</strong> position, gaining experience, obtaining the necessary qualifications, and mastering the details of day-to-day IT operations. Following this, I completed a one-year <strong>Software Development and Testing (506131203)</strong> course. My last 2 years there were extremely practice-oriented, providing excellent hands-on experience in developing real-world applications.</span>
+                
+                <span><span style={{ fontWeight: 'bold', fontSize: '120%'}}>Technical Skills:</span> I have developed strong skills in <strong>C#, HTML, JavaScript, TypeScript, and MySQL</strong> technologies, and gained experience with <strong>React.js, .NET Framework, Docker, and Azure</strong> environments. I have created various scripts to automate daily tasks using <strong>PowerShell</strong>, <strong>C#</strong>, and <strong>Python</strong>, ranging from installing/removing applications on new systems to converting different data files into Excel-compatible formats, which have improved the efficiency of my IT workflows.</span>
+                
+                <span><span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projects and Professional Experience:</span> During my studies, I developed a fully functional <strong>horse racing betting simulation website</strong> and several smaller websites for technical interview rounds. I also completed a <strong>one-month professional internship in Spain</strong>, where I built a hybrid website/mobile application using the <strong>Ionic</strong> framework, gaining international experience and learning to collaborate in a collaborative, agile environment.</span>
+                
+                <span><span style={{ fontWeight: 'bold', fontSize: '120%'}}>Current Position and Soft Skills:</span> I currently work at <strong>NSZFH as an IT technician</strong>, where I handle user onboarding and daily IT operations. My work has developed my ability to <strong>solve problems under pressure, handle repetitive tasks, and work effectively in a team environment</strong>. I enjoy combining my <strong>practical IT experience</strong> with <strong>software development</strong>, and I am continuously seeking opportunities where I can develop tools and applications with real impact.</span>
             </Box>
             <Box sx={{ 
                 width: '80%', 

@@ -191,6 +191,30 @@ export default function MainPage() {
                     Szeretem ötvözni a <strong>gyakorlati IT tapasztalatomat</strong> a <strong>szoftverfejlesztéssel</strong>, és folyamatosan olyan lehetőségeket keresek, ahol valódi hatással bíró eszközöket és alkalmazásokat fejleszthetek.
                 </span>
             </Box>
+            <Box sx={{ 
+                            width: '80%', 
+                            maxWidth: 1500, 
+                            my:2, 
+                            mx:10, 
+                            display: 'flex', 
+                            alignItems: 'center',
+                            flexDirection: 'column', 
+                            gap: 2, 
+                            }}>
+                                <div style={{ 
+                                    display: 'flex', 
+                                    gap: '16px',  
+                                    flexWrap: 'wrap', 
+                                    flexDirection: 'row',
+                                    justifyContent: 'space-around',
+                                }}>
+                                    <a href="https://bored-bets.vercel.app" target="_blank" rel="noopener noreferrer" className='portfolioCard boredbets'><a>boredBets</a><span>Teljesen automatizált lóversenyfogadás szimulátor</span></a>
+                                    <a href="https://pfc-frontend-pearl.vercel.app" target="_blank" rel="noopener noreferrer" className='portfolioCard PfC'><a>PfC Login</a><span>Egyszerű hitelesítő weboldal</span></a>
+                                    <a href="https://github.com/bag0ly/cruix" target="_blank" rel="noopener noreferrer" className='portfolioCard cruix'><a>Cruix</a><span>Ügyfélprojekt a katolikus műemlékekről<br/>Fejlesztése megszakadt</span></a>
+                                    <a href="https://github.com/RRichard2004/Intern_EduApp" target="_blank" rel="noopener noreferrer" className='portfolioCard eduapp'><a>Education App</a><span>Többplatformos Ionic app, amely több forráson való eligazodást segíti.</span></a>
+            
+                                </div>
+                        </Box>
         </Box> 
     );
 }
