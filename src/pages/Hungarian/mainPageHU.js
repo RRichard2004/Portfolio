@@ -190,6 +190,9 @@ export default function MainPage() {
                     A munkám fejlesztette azon képességemet, hogy <strong>nyomás alatt oldjam meg a problémákat, elviseljem az ismétlődő feladatokat, és hatékonyan működjek együtt csapatkörnyezetben</strong>.  
                     Szeretem ötvözni a <strong>gyakorlati IT tapasztalatomat</strong> a <strong>szoftverfejlesztéssel</strong>, és folyamatosan olyan lehetőségeket keresek, ahol valódi hatással bíró eszközöket és alkalmazásokat fejleszthetek.
                 </span>
+
+                
+                <span style={{ fontWeight: 'bold', fontSize: '150%'}}>Projektjeim</span>
             </Box>
             <Box sx={{ 
                             width: '80%', 
@@ -212,7 +215,6 @@ export default function MainPage() {
                                     <a href="https://pfc-frontend-pearl.vercel.app" target="_blank" rel="noopener noreferrer" className='portfolioCard PfC'><a>PfC Login</a><span>Egyszerű hitelesítő weboldal</span></a>
                                     <a href="https://github.com/bag0ly/cruix" target="_blank" rel="noopener noreferrer" className='portfolioCard cruix'><a>Cruix</a><span>Ügyfélprojekt a katolikus műemlékekről<br/>Fejlesztése megszakadt</span></a>
                                     <a href="https://github.com/RRichard2004/Intern_EduApp" target="_blank" rel="noopener noreferrer" className='portfolioCard eduapp'><a>Education App</a><span>Többplatformos Ionic app, amely több forráson való eligazodást segíti.</span></a>
-            
                                 </div>
                         </Box>
         </Box> 

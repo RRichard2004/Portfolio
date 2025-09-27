@@ -189,6 +189,8 @@ export default function MainPage() {
                 <span><span style={{ fontWeight: 'bold', fontSize: '120%'}}>Projects and Professional Experience:</span> During my studies, I developed a fully functional <strong>horse racing betting simulation website</strong> and several smaller websites for technical interview rounds. I also completed a <strong>one-month professional internship in Spain</strong>, where I built a hybrid website/mobile application using the <strong>Ionic</strong> framework, gaining international experience and learning to collaborate in a collaborative, agile environment.</span>
                 
                 <span><span style={{ fontWeight: 'bold', fontSize: '120%'}}>Current Position and Soft Skills:</span> I currently work at <strong>NSZFH as an IT technician</strong>, where I handle user onboarding and daily IT operations. My work has developed my ability to <strong>solve problems under pressure, handle repetitive tasks, and work effectively in a team environment</strong>. I enjoy combining my <strong>practical IT experience</strong> with <strong>software development</strong>, and I am continuously seeking opportunities where I can develop tools and applications with real impact.</span>
+                
+                <span style={{ fontWeight: 'bold', fontSize: '150%'}}>Projects</span>
             </Box>
             <Box sx={{ 
                 width: '80%', 
